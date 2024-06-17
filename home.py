@@ -6,7 +6,6 @@ import os
 #API_KEYの設定
 #環境変数にAPI_KEYを設定した
 GEMINI_API_KEY = os.environ["GEMINI_API_KEY"]
-# 'AIzaSyCTNbPzgrkNVOM5CHDbIvHlBojfEhS7vXU'
 genai.configure(api_key=GEMINI_API_KEY)
 
 #モデルを初期化する
